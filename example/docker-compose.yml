@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  sonarqube:
+    image: huangjing/sentinel:latest
+    container_name: sentinel
+    ports:
+      - 38080:8080
